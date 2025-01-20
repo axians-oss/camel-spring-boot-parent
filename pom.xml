@@ -5,7 +5,7 @@
     <parent>
         <groupId>nl.axians</groupId>
         <artifactId>spring-boot-parent</artifactId>
-        <version>7</version>
+        <version>18</version>
         <relativePath />
     </parent>
 
@@ -43,7 +43,7 @@
   </scm>
 
     <properties>
-        <camel.version>4.8.0</camel.version>
+        <camel.version>4.8.3</camel.version>
     </properties>
 
     <dependencyManagement>

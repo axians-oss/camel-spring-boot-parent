@@ -8,11 +8,11 @@ To use this parent, add the following to your project's `pom.xml`:
 <parent>
     <groupId>nl.axians</groupId>
     <artifactId>axians-camel-spring-boot</artifactId>
-    <version>5</version>
+    <version>8</version>
 </parent>
 ```
 
-You can update the Spring Boot and Camel versions by overriding the `spring-boot.version` and `camel.version` properties.
+You can update the Spring Boot and Camel versions by overriding the `spring-boot.version` and `camel.version` properties. Currently Spring Boot 3.4,1 and Camel 4.8.3 are used.
 
 The default Java version being used is 21. You can override this by setting the `maven.compiler.source`, `maven.compiler.target` and `maven.compiler.release` properties in your project's `pom.xml`. To use Java 17 for example you can add the following properties in your `pom.xml`:
 ```xml
